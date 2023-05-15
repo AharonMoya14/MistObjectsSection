@@ -1,0 +1,481 @@
+/*
+ All Rights Reserved
+ This software is property information of AKUREY S.A.
+ Contact us at contact@akurey.com
+ @summary Task 4 Mist Objects Page css code
+*/
+.general{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    height: 78px;
+    justify-content: center;
+}
+.hamburgerMenu{
+    display:none;
+    position: absolute;
+    flex-direction: column;
+    top: 76px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 3px #F3F3F3;
+    width: 100%;
+    height: 406px;
+    z-index: 1;
+    justify-content: center;
+}
+.navbarMobile{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    align-items: center;
+}
+.navbarText{
+    white-space: nowrap;
+    height: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #575757;
+    text-decoration: none;
+}
+.navbarText__active{
+    color: #0C75AF;
+}
+.languageHamburger{
+    width: 169px;
+    height: 30.79px;
+}
+.menu{
+    position: absolute;
+    display: flex;
+    width: 12px;
+    height: 12px;
+    left: 19px;
+}
+.menu__open{
+    width: 18px;
+    height: 16px;
+}
+.mainLogo{
+    position: absolute;
+    height: 40px;
+    margin: auto;
+}
+.navbar{
+    display: none;
+}
+.sinopsisBackgroundContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.background{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 66.666vw;
+    margin: 0 auto;
+}
+.backgroundImgTablet{
+    display: none;
+}
+.backgroundImg{
+    display: flex;
+    width: 100%;
+    height: 66.666vw;
+    position: absolute;
+    z-index: -1;
+}
+.backgroundImgDesktop{
+    display: none;
+}
+.whiteFade{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 163px;
+    left: 0px;
+    align-self: flex-end;
+    margin-bottom: -1px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #FFFFFF 91.54%);
+}
+.objectHeader__title{
+    position: absolute;
+    width: 164px;
+    height: 40px;
+    white-space: nowrap;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-self: flex-end;
+    text-align: center;
+    color: #171717;
+    margin-bottom: 0px;
+    margin-left: 3.8461538vw;
+}
+
+.textBoxSearch{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    margin: 32px auto 0px auto; 
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
+    width: 91.7948718%;
+    height: 56px;
+    border: 1px solid #B5B5B5;
+    border-radius: 6px;
+    margin-bottom: 32px;
+}
+.textBoxSearch__image{
+    position: absolute;
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+}
+.textBoxSearch__text{
+    position: absolute;
+    width: 275px;
+    height: 20px;
+    margin-left: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    resize: none;
+    overflow: hidden;
+    border: none;
+    color: #7D7D7D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.mistObjects{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px;
+    gap: 20px;
+    width: 91.7948718%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
+}
+.mistObjects__card__textContainer__text1{
+    margin: 0px;
+    margin-top: 8px;
+    margin-left: 8px;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.mistObjects__card__textContainer__text2{
+    width: 224.67px;
+    height: 96px;
+    margin: 0px;
+    margin-top: 4px;
+    margin-left: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #F4F4F4;
+}
+.mistObjects__card{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 358px;
+    height: 132px;
+}
+.mistObjects__card__textContainer{
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    gap: 4px;
+    position: absolute;
+    width: 240.67px;
+    height: 132px;
+    margin-left: 117.33px;
+    top: 0px;
+    background: rgba(0, 96, 150, 0.59);
+    backdrop-filter: blur(2px);
+    border-radius: 0px 6px 6px 0px;
+}
+.mistObjects__card__image{
+    position: absolute;
+    width: 174.49px;
+    height: 132px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+}
+
+.endSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    width: 100%;
+    height: 271px;
+    background: #0C75AF;
+}
+.skull{
+    width: 97px;
+    height: 89px;
+    margin-top: 48px;
+}
+.textEnd{
+    margin: 0;
+    width: 286px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hamburgerMenu{
+        top: 107px;
+    }
+    .menu{
+        left: 67px;
+    }
+    .background{
+        height: 50.390625vw; 
+    }
+    .backgroundImg{
+        display:none;
+        
+    }
+    .backgroundImgTablet{
+        display: flex;
+        width: 100%;
+        height: 50.390625vw;  
+    }
+    .whiteFade{
+        height: 311px;
+    }
+    .objectHeader__title{
+        margin-left: 8.3333333vw;
+        margin-bottom: 16px;
+    }
+    .header{
+        height: 109px;
+    }
+    .menu{
+        left: 67px;
+    }
+    .mainLogo{
+        height: 58px;
+    }
+    .textBoxSearch{
+        width: 83.3333333%;
+        margin-bottom: 48px;
+    }
+    .objectHeader{
+        width: 83.3333333%;
+    }
+
+    .mistObjects__card__hidden{
+        display: flex;
+    }
+    .mistObjects{
+        width:  83.3333333%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .mistObjects__card__textContainer__text1{
+        width: 145px;
+        height: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+    .mistObjects__card__textContainer__text2{
+        width: 184px;
+        height: 135px;
+        margin: 0px;
+        margin-top: 4px;
+        margin-left: 8px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        color: #F4F4F4;
+
+    }
+    .mistObjects__card{
+        margin: 0;
+        width: 310px;
+        height: 175px;
+    }
+    
+    .mistObjects__card__textContainer{
+        width: 200px;
+        height: 175px;
+        margin-left: 110px;
+    }
+    .mistObjects__card__image{
+        width: 181px;
+        height: 175px;
+    }
+    
+    .endSection{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .skull{
+        margin-top: 0;
+    }
+    .textEnd{
+        text-align: start;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .hamburgerMenu{
+        display: none;
+    }
+    .header{
+        width: auto;
+        height: 100px;
+        margin: 0px auto 0px 13.28125vw;
+        justify-content: flex-start;
+    }
+    .menu{
+        display: none;
+    }
+    .mainLogo{
+        position: absolute;
+        width: 163px;
+        height: 58px;
+        margin-left: 0;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 48px;
+        position: absolute;
+        width: auto;
+        height: 30.79px;
+        left: 232px;
+        top: 35px;
+    }
+    .language{
+        width: 90px;
+        height: 30.79px;
+    }
+    .background{
+        height: 28.28125vw; 
+    }
+    .backgroundImgTablet{
+        display: none;
+    }
+    .backgroundImg{
+        display: none;
+    }
+    .backgroundImgDesktop {
+        display: flex;
+        width: 100%;
+        height: 28.28125vw;
+        position: absolute;
+        z-index: -1;
+    }
+    .whiteFade{
+        height: 192px;
+    } 
+    .objectHeader__title{
+        margin-left: 13.90625vw;
+        margin-bottom: -14px;
+    }
+
+    .textBoxSearch{
+        width: 73.4375%;
+        margin-top: 62px;
+    }
+    
+    .mistObjects{
+        width: 73.4375%;   
+    }
+    .mistObjects__card__textContainer__text1{
+        margin: 11.9px auto 0px 11.9px;
+        width: 175.48px;
+        height: 23.79px;    
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+    }
+    .mistObjects__card__textContainer__text2{
+        margin: auto auto 11.9px 11.9px;
+        width: 273.63px;
+        height: 200.76px;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .mistObjects__card{
+        width: 461px;
+        height: 254.29px;
+    }
+    .mistObjects__card__textContainer{
+        gap: 5.95px;
+        width: 297.42px;
+        height: 254.29px;
+        margin-left: 163.58px;
+        backdrop-filter: blur(2.97419px);
+        border-radius: 0px 8.92258px 8.92258px 0px;
+    }
+    .mistObjects__card__image{
+        width: 263.22px;
+        height: 254.29px;
+        border-radius: 11.8968px;
+    }
+}
